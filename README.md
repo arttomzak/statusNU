@@ -1,0 +1,1 @@
+This repository will eventually be the backbone of the status.NU website and keep track of its history!
