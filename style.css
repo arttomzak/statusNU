@@ -3,7 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16px
-
 }
 
 main{
@@ -12,6 +11,23 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.friendstop ul{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 25px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.friendstop input[type=text] {
+    padding-right: 200px;
+    margin-left: 20px;
+    /* border: none; */
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: #6635A3;
@@ -19,6 +35,14 @@ main{
     margin: 0px;
     overflow: hidden;
 }
+
+.navbar input[type=text] {
+    float: left;
+    padding: 15px;
+    padding-right: 33.3%;
+    margin: 10px
+}
+
 
 
 .navbar a{
@@ -35,5 +59,7 @@ main{
 
 
 .navbar li{
-    float: left;
+    float: right;
 }
+
+
